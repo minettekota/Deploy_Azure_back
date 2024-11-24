@@ -52,4 +52,3 @@ if __name__ == '__main__':
     port = int(os.environ.get('PORT', 8000))
     #　デパッグもーっどをローカル環境では有効に、本番では無効に
     app.run(host='0.0.0.0', port=port, debug=False)
-    app.run(debug=True)
