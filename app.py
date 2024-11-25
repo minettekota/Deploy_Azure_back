@@ -9,7 +9,7 @@ CORS(app, resources={
     r"/api/*": {
         "origins": [
             "https://tech0-gen-8-step3-testapp-node2-23.azurewebsites.net",
-            "http://localhost:3000" #ローカル開発用
+            "http://localhost:3000" #ローカル開発用 
         ]
     }
 }) 
